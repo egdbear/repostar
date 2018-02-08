@@ -1,0 +1,85 @@
+ol {
+  list-style: none;
+}
+
+.item {
+  margin-bottom: 2em;
+  padding: 1.5em 0;
+  border-bottom: 1px solid #eee;
+}
+
+.full_name {
+  font-size: 1.3em;
+  margin-bottom: 0.4em;
+  max-width: 70%;
+  display: inline-block;
+  word-wrap: break-word;
+}
+
+@media (max-width: 500px) {
+  .full_name {
+    max-width: 60%;
+  }
+}
+
+.button {
+  float: right;
+}
+
+.description {
+  display: inline-block;
+  font-size: 0.9em;
+  margin-bottom: 0.4em;
+  max-width: 70%;
+}
+
+.stargazers_count {
+  font-size: 0.7em;
+  float: right;
+}
+
+.btn {
+  position: relative;
+  padding: 0.3em 1em;
+  padding-left: 1.7em;
+  font-size: 0.9em;
+  color: #24292e;
+  background-color: #eff3f6;
+  background-image: linear-gradient(-180deg, #fafbfc 0%, #eff3f6 90%);
+}
+
+.top {
+  margin-bottom: 1em;
+}
+
+.star {
+  background-image: url('../../assets/star.svg');
+  background-repeat: no-repeat;
+}
+
+.star-lg {
+  background-size: 30px 30px;
+  width: 30px;
+  height: 30px;
+}
+
+.star-sm {
+  background-size: 15px 15px;
+  width: 15px;
+  height: 15px
+}
+
+.star-xs {
+  background-size: 12px 12px;
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  vertical-align: text-top;
+  margin-right: 3px;
+}
+
+.icon {
+  position: absolute;
+  top: 4px;
+  left: 5px;
+}

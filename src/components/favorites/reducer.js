@@ -1,13 +1,13 @@
 import { SAVE_FAVORITE } from './actions';
 
-const initialState = { favorites: [] };
+const initialState = { favoritesItems: [] };
 
 export default function(state = initialState, action) {
   if (action) {
     if (action.type === SAVE_FAVORITE) {
       return {
         ...state,
-        favorites: [...state.favorites, action.payload.favorite]
+        favoritesItems: [...state.favoritesItems, action.payload.favorite]
       };
     }
   }
