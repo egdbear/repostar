@@ -1,0 +1,35 @@
+.tablist {
+  list-style: none;
+  margin-top: 0;
+  border-bottom: 1px solid #d1d5da;
+}
+
+.tab {
+  display: inline-block;
+  color: #24292e;
+  background-color: #fff;
+  border-color: #d1d5da;
+  border-radius: 3px 3px 0 0;
+  padding: 1em;
+  font-size: 14px;
+  border: 1px solid transparent;
+  border-radius: 3px 3px 0 0;
+}
+
+.active {
+  color: #24292e;
+  background-color: #fff;
+  border-color: #d1d5da;
+  border-radius: 3px 3px 0 0;
+  border-bottom: 0;
+}
+
+.tabnav {
+  margin-top: 2em;
+}
+
+.content {
+  background-color: #ffffff;
+}
+
+/* github style stealer */
