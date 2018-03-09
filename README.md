@@ -1,5 +1,6 @@
 # repostar
-Github's client app for local starring repositories
+Github's client app for local starring repositories. 
+Built on top of create-react-app, Redux and uses LocalStorage.
 
 ### How to run 
 
